@@ -1,0 +1,52 @@
+/* iphoneX 底部34px 68rpx */
+/* ￥和数字之间加空格 */
+.main{
+  height: 100vh;
+}
+.return_top{
+  width: 76rpx;
+  height: 76rpx;
+  position: fixed;
+  right: 32rpx;
+  bottom: 80rpx;
+  background: none;
+}
+.return_index{
+  width: 76rpx;
+  height: 76rpx;
+  position: fixed;
+  right: 32rpx;
+  bottom: 80rpx;
+  background: none;
+}
+navigator{
+  width: 100%;
+  height: 100%;
+}
+view,
+text{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*display block + margin auto 设置图片居中*/
+image{
+  background: #ECECEC;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.float_left{
+  float: left;
+}
+.float_right{
+  float: right;
+}
+.clearBoth:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+.clearBoth:before{
+	content: " ";
+	display: block;
+	clear: both;
+}
